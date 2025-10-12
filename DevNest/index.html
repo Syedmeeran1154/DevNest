@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevNest - Build. Learn. Grow.</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0fdfa; /* Very light teal background */
+        }
+        .header-bg {
+            background-color: #0d9488; /* Teal 600 - Primary Brand Color */
+        }
+        .text-devnest {
+            color: #0d9488;
+        }
+        .card-icon {
+            color: #0d9488;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Fixed Header Section -->
+    <header class="header-bg p-4 shadow-xl fixed top-0 w-full z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold text-white tracking-wide">DevNest</h1>
+            <a 
+                href="https://www.linkedin.com/company/devnestofsm/about/?viewAsMember=true" 
+                target="_blank" 
+                class="inline-flex items-center px-3 py-1 bg-white bg-opacity-90 text-teal-700 font-semibold rounded-full shadow-md hover:bg-opacity-100 transition duration-300 text-sm transform hover:scale-105"
+                title="Follow DevNest on LinkedIn"
+            >
+                <svg class="w-4 h-4 mr-1" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.75s.784-1.75 1.75-1.75 1.75.79 1.75 1.75-.783 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.518-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                DevNest Page
+            </a>
+        </div>
+    </header>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <!-- Main Content Container (added top padding for fixed header) -->
+    <main class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 pt-24">
+
+        <!-- Hero & Founder Section -->
+        <section class="mb-12 bg-white p-6 md:p-10 rounded-xl shadow-2xl border-b-4 border-teal-600">
+            <h2 class="text-4xl font-bold mb-4 text-gray-900">
+                Welcome to <span class="text-devnest">DevNest</span>
+            </h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-3xl">
+                DevNest is a community-driven initiative focused on consistent growth, skill sharing, and career advancement for developers. We believe that consistency beats talent, and our structured approach ensures a steady path to mastering development, data structures, and industry tools.
+            </p>
+
+            <!-- Founder Card -->
+            <div class="flex flex-col sm:flex-row items-center sm:items-start p-6 bg-teal-50 rounded-lg border-2 border-teal-200 shadow-inner">
+                <img 
+                    src="C:\Users\SYEDMEERAN\DevNest\SyedMeeran_IMG (3).png"
+                    alt="Picture of Syed Meeran S" 
+                    class="w-32 h-32 rounded-full object-cover mb-4 sm:mb-0 sm:mr-6 border-4 border-white shadow-md"
+                >
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-800">Founded by Syed Meeran S</h3>
+                    <p class="text-lg text-gray-500 mb-3">Visionary behind DevNest's mission for consistent developer growth.</p>
+                    <a 
+                        href="https://www.linkedin.com/in/syed-meeran-s-3a7880268/" 
+                        target="_blank" 
+                        class="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-medium rounded-full shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105"
+                        title="Connect on LinkedIn"
+                    >
+                        <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.75s.784-1.75 1.75-1.75 1.75.79 1.75 1.75-.783 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.518-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        Syed Meeran S Profile
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timetable Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-extrabold text-gray-900 mb-8 border-b-4 border-devnest pb-2">
+                ✨ <span class="text-devnest">DevNest's</span> Blueprint for Consistent Growth
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Monday – Mini Project Day -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 border-l-8 border-blue-500 flex flex-col">
+                    <div class="flex items-center mb-3">
+                        <svg class="w-8 h-8 mr-3 card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                        <h3 class="text-2xl font-bold text-blue-800">Monday – Mini Project Day</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4 flex-grow">
+                        On Mondays, DevNest focuses on hands-on learning through mini projects. Each week, we present a practical project that allows learners to apply their coding knowledge in a tangible way. Detailed explanations, step-by-step guidance, and resources are provided to ensure users can follow along and build the project independently, boosting both confidence and skills.
+                    </p>
+                    <div class="bg-blue-50 p-3 rounded-lg border border-blue-200 mt-auto">
+                        <p class="font-semibold text-blue-600">Core Principle:</p>
+                        <p class="text-sm text-blue-700">Boosting confidence and skills through independent project building.</p>
+                    </div>
+                </div>
+
+                <!-- Tuesday – DSA / Coding Challenges -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 border-l-8 border-purple-500 flex flex-col">
+                    <div class="flex items-center mb-3">
+                        <svg class="w-8 h-8 mr-3 card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                        <h3 class="text-2xl font-bold text-purple-800">Tuesday – DSA / Coding Challenges</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4 flex-grow">
+                        Tuesdays are dedicated to sharpening problem-solving and algorithmic thinking. DevNest presents coding challenges and data structure exercises that encourage critical thinking and efficient coding practices. Users are guided with hints, solutions, and tips to optimize their approach, helping them grow stronger in coding fundamentals.
+                    </p>
+                    <div class="bg-purple-50 p-3 rounded-lg border border-purple-200 mt-auto">
+                        <p class="font-semibold text-purple-600">Core Principle:</p>
+                        <p class="text-sm text-purple-700">Sharpening algorithmic thinking and optimizing coding fundamentals.</p>
+                    </div>
+                </div>
+
+                <!-- Wednesday – Tech Tools / Tutorials -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 border-l-8 border-red-500 flex flex-col">
+                    <div class="flex items-center mb-3">
+                        <svg class="w-8 h-8 mr-3 card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-2.43 2.43a2 2 0 0 0-2.83 0l-1.55 1.56a2 2 0 0 0 0 2.82l.83.84a2 2 0 0 0 2.82 0l1.56-1.55a2 2 0 0 0 0-2.83l2.43-2.43a6 6 0 0 1 7.94-7.94Z"></path></svg>
+                        <h3 class="text-2xl font-bold text-red-800">Wednesday – Tech Tools / Tutorials</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4 flex-grow">
+                        Wednesdays highlight essential tools, frameworks, and technologies that every developer should know. DevNest introduces new tools with clear tutorials and practical demonstrations, allowing users to explore, practice, and integrate these technologies into their projects, keeping their skills up-to-date with industry trends.
+                    </p>
+                    <div class="bg-red-50 p-3 rounded-lg border border-red-200 mt-auto">
+                        <p class="font-semibold text-red-600">Core Principle:</p>
+                        <p class="text-sm text-red-700">Mastering essential tools and integrating new technologies into projects.</p>
+                    </div>
+                </div>
+
+                <!-- Thursday – Motivation / Career Tips -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 border-l-8 border-yellow-500 flex flex-col">
+                    <div class="flex items-center mb-3">
+                        <svg class="w-8 h-8 mr-3 card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        <h3 class="text-2xl font-bold text-yellow-800">Thursday – Motivation / Career Tips</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4 flex-grow">
+                        Thursdays focus on inspiration and professional growth. DevNest shares motivational content, career advice, and productivity strategies tailored for developers. The goal is to encourage continuous learning, resilience, and the adoption of habits that lead to personal and professional success in the tech field.
+                    </p>
+                    <div class="bg-yellow-50 p-3 rounded-lg border border-yellow-200 mt-auto">
+                        <p class="font-semibold text-yellow-600">Core Principle:</p>
+                        <p class="text-sm text-yellow-700">Fostering continuous learning, resilience, and professional success.</p>
+                    </div>
+                </div>
+
+                <!-- Friday – Tech Quiz / Challenge -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 border-l-8 border-green-500 md:col-span-2 lg:col-span-1 flex flex-col">
+                    <div class="flex items-center mb-3">
+                        <svg class="w-8 h-8 mr-3 card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg>
+                        <h3 class="text-2xl font-bold text-green-800">Friday – Tech Quiz / Challenge</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4 font-medium flex-grow">
+                        Fridays are interactive and fun, featuring quizzes and coding challenges to test knowledge and engage the community. DevNest encourages learners to solve problems, reflect on their understanding, and track progress. This approach reinforces learning while making the process enjoyable and rewarding.
+                    </p>
+                    <div class="bg-green-50 p-3 rounded-lg border border-green-200 mt-auto">
+                        <p class="font-semibold text-green-600">Core Principle:</p>
+                        <p class="text-sm text-green-700">Reinforcing learning through fun, interactive quizzes and challenges.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="header-bg p-6 mt-12">
+        <div class="max-w-7xl mx-auto text-center text-white">
+            <p class="text-base font-semibold mb-1">DevNest - Innovate. Code. Grow.</p>
+            <p class="text-sm">Initiative by Syed Meeran S &copy; 2025</p>
+        </div>
+    </footer>
+
+</body>
+</html>
